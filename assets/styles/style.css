@@ -367,3 +367,82 @@ div#pitch p {
 	margin-right: 10px;
 	color: #ff9800;
 }
+
+
+/* Estilos adicionais para responsividade */
+
+@media only screen and (max-width: 768px) {
+   
+    body {
+        font-size: 16px;
+    }
+
+    /* Estilos para o aside#intro */
+    aside#intro {
+        width: 100%;
+        margin: 0;
+        position: static;
+        height: auto;
+        box-shadow: none;
+    }
+
+    /* Estilos para o header */
+    header {
+        width: 100%;
+		height: 146px;
+        position: static;
+        text-align: left;
+        box-shadow: none;
+        display: block;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /* Estilos para a section */
+    section {
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        display: block;
+    }
+
+    .project-summary,
+    .card {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    /* Estilos para o footer */
+    footer {
+        width: 100%;
+        margin-left: 0;
+        position: static;
+        text-align: center;
+        display: block;
+    }
+
+    /* Estilos adicionais para div e p dentro da section e do footer */
+    section>div,
+    footer p {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 401px) {
+	
+i.fa-solid {
+    font-size: 2em;
+}
+nav a {
+	color:transparent;
+}
+h1, h2 { text-align: center;}
+}
