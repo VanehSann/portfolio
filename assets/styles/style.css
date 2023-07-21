@@ -14,9 +14,10 @@ h2 {
 }
 
 h1 {
-	font-size: 30px;
-	/*  color: gray;  */
-	color: #051c3f;
+	text-align: center;
+    font-size: 40px;
+    /* color: gray; */
+    color: #051c3f;
 }
 
 h3 {
@@ -90,7 +91,25 @@ span.project-contributors {
 	font-weight: 600;
 	color: gray;
 }
+a.more-btn {
+    text-decoration: none;
+    background-color: #FF9800;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 7px;
+    /* display: block; */
+    width: 100px;
+    box-shadow: inset 0px 0px 0px #999999;
+    border-right: 4px solid #f77e00;
+    color: white;
+    border-bottom: 4px solid #f77e00;
+    text-align: center;
+}
 
+.more-div {
+    text-align: center;
+	height: 40px;
+}
 /* Estilos do footer */
 footer {
 	background: #051c3f;
@@ -105,11 +124,13 @@ footer {
 }
 
 /* Estilos comuns para div e p dentro da section e do footer */
-section>div,
+section > div,
 footer p {
 	width: 80%;
 	margin: 30px 0;
+
 }
+
 
 /* Estilos adicionais */
 p {
@@ -233,6 +254,9 @@ div#about a {
 	text-align: center;
 }
 
+.more-div {
+    text-align: center;
+}
 /* Estilos adicionais da seção */
 
 div#pitch p {
@@ -290,6 +314,7 @@ div#pitch p {
 
 #contact h1 {
 	margin-top: 30px;
+	margin-bottom: 40px;
 }
 
 .contact-tabs {
@@ -433,7 +458,9 @@ div#pitch p {
         margin: 15px auto;
     }
 
-
+	footer {
+		padding: 1px 0;
+	}
 }
 
 @media only screen and (max-width: 401px) {
@@ -445,4 +472,9 @@ nav a {
 	color:transparent;
 }
 h1, h2 { text-align: center;}
+.contact-content .contact-info p {
+
+    text-align: center;
+}
+
 }
