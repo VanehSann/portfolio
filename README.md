@@ -1,5 +1,5 @@
 
-  <div style="text-align: center;"><a href="#en">🇺🇸 English Version</a> | <a href="#pt">🇧🇷 Versão em Português</a></div>
+  <div align="center"><a href="#en">🇺🇸 English Version</a> | <a href="#pt">🇧🇷 Versão em Português</a></div>
 
 <section id="pt">
   <h1>Bem-vindo ao meu Portfólio Pessoal! 👋🌟</h1>
