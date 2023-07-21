@@ -1,0 +1,369 @@
+/* Reset geral */
+* {
+	margin: 0;
+}
+
+body {
+	font-family: system-ui, sans-serif;
+}
+
+h2 {
+	font-size: 20px;
+	color: gray;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 30px;
+	/*  color: gray;  */
+	color: #051c3f;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+/* Estilos do aside#intro */
+aside#intro {
+	width: 300px;
+	margin-left: 100px;
+	background: #051c3f;
+	position: fixed;
+	height: 100vh;
+	box-shadow: inset 0px 0 30px #161616;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Estilos do header */
+header {
+	background: #051c3f;
+	position: fixed;
+	width: 100px;
+	z-index: 99;
+	box-shadow: inset 0px 1px 9px #101010;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Estilos da section */
+section {
+	background: linear-gradient(45deg, #ffffff, #ffffff);
+	right: 0;
+	position: relative;
+	margin-left: 400px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+
+.project-summary,
+.card {
+	margin: 25px 0px;
+	background: white;
+	padding: 13px 19px;
+}
+
+section p {
+	color: gray;
+	/*  color: #051c3f; */
+	margin: 3px 0px;
+	font-size: larger;
+}
+
+span.job-time {
+	color: #777777;
+}
+
+span.project-stack {
+	font-weight: 600;
+	color: gray;
+}
+
+span.project-contributors {
+	font-weight: 600;
+	color: gray;
+}
+
+/* Estilos do footer */
+footer {
+	background: #051c3f;
+	color: gray;
+	text-align: center;
+	position: relative;
+	display: flex;
+	margin-left: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Estilos comuns para div e p dentro da section e do footer */
+section>div,
+footer p {
+	width: 80%;
+	margin: 30px 0;
+}
+
+/* Estilos adicionais */
+p {
+	text-align: justify;
+}
+
+i.fas.fa-phone {
+	font-size: 0.87em;
+}
+
+i.fa-solid {
+	font-size: 3em;
+	color: #ff9800;
+	text-shadow: none;
+	margin-bottom: 10px;
+}
+
+/* Estilos do menu de navegação */
+nav a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: gray;
+	font-weight: 200;
+	text-shadow: 6px 17px 35px #000000;
+	justify-content: space-evenly;
+}
+
+header nav {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Estilos da seção "sobre mim" */
+div#about {
+	width: 90%;
+	text-align: center;
+}
+
+#about h1 {
+	color: #ff9800;
+	font-family: system-ui, sans-serif;
+}
+
+#about h2 {
+	font-size: 2em;
+	color: #ffffff;
+	font-family: system-ui, sans-serif;
+	letter-spacing: 2;
+	font-weight: 900;
+}
+
+#about h3 span {
+	background: red;
+	padding: 4px;
+}
+
+#about div span {
+	margin: 1px;
+	background: #ff9800;
+	padding: 9px;
+	font-weight: 600;
+	box-shadow: inset 0px 0px 0px #999999;
+	border-right: 4px solid #f77e00;
+	color: white;
+	border-bottom: 4px solid #f77e00;
+	border-radius: 3px;
+}
+
+#about div {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 19px 0;
+}
+
+#about span {
+	color: gray;
+	font-weight: 200;
+}
+
+#about p {
+	color: gray;
+}
+
+div#about a {
+	margin: 17px;
+	color: #051c3f;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 10px;
+	background: #ffffff;
+	display: inline-block;
+}
+
+#about button {
+	background: white;
+	border: 0;
+	margin: 13px 1px;
+	color: #051c3f;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 10px;
+}
+
+#about i {
+	font-size: 18px;
+	margin-right: 8px;
+}
+
+#about p,
+#about span {
+	display: block;
+	text-align: center;
+}
+
+/* Estilos adicionais da seção */
+
+div#pitch p {
+	margin: 6px 0px;
+	background: white;
+	padding: 13px 19px;
+}
+
+
+#pitch h1 {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+/* Estilos da seção de contato */
+.contact-icons a {
+	color: gray;
+	padding: 9px;
+	font-weight: 600;
+	box-shadow: inset 0px 0px 0px #999999;
+	border-radius: 3px;
+	text-align: center;
+	margin: 10px;
+	font-size: 50px;
+}
+
+.contact-icons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.contact-icons-2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 25px 0px;
+	background: whitesmoke;
+	padding: 13px 19px;
+}
+
+.contact-icons-2 p {
+	margin: 10px 0;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contact h1 {
+	margin-top: 30px;
+}
+
+.contact-tabs {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.contact-tabs .tab-btn {
+	background-color: #f2f2f2;
+	border: none;
+	color: gray;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 16px;
+}
+
+.contact-tabs .tab-btn.active {
+	background-color: #ff9800;
+	color: white;
+	border-radius: 5px;
+}
+
+.contact-content {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-content .contact-section {
+	display: none;
+}
+
+.contact-content .contact-section.show {
+	display: block;
+}
+
+.contact-content .contact-info p {
+	margin-bottom: 10px;
+}
+
+.contact-section#written-info {
+	display: none;
+}
+
+.contact-section#written-info.show {
+	display: block;
+}
+
+.contact-info {
+	text-align: left;
+	margin-top: 16px;
+
+}
+
+.contact-info p {
+	font-size: large;
+	line-height: 1.8;
+	margin-bottom: 10px;
+}
+
+.contact-info a {
+	color: #ff9800;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.contact-info a:hover {
+	color: #ff9800;
+}
+
+.contact-info i {
+	margin-right: 10px;
+	color: #ff9800;
+}
