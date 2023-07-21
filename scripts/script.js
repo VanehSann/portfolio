@@ -16,3 +16,12 @@ function showWrittenInfo() {
     tabWrittenInfo.classList.add("active");
     tabDirectLinks.classList.remove("active");
 }
+
+function showHide({ target }) {
+    if (target.classList.value.includes("direct-links")) {
+        showDirectLinks()
+    }
+    else {
+        showWrittenInfo()
+    }
+}
