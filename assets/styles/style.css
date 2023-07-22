@@ -150,6 +150,10 @@
 		flex-direction: column;
 	}
 
+	footer a {
+		color: gray;
+	}
+
 	/* Estilos comuns para div e p dentro da section e do footer */
 	section>div,
 	footer p {
