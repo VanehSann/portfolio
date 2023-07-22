@@ -1,480 +1,620 @@
-/* Reset geral */
-* {
-	margin: 0;
-}
-
-body {
-	font-family: system-ui, sans-serif;
-}
-
-h2 {
-	font-size: 20px;
-	color: gray;
-	font-weight: 700;
-}
-
-h1 {
-	text-align: center;
-    font-size: 40px;
-    /* color: gray; */
-    color: #051c3f;
-}
-
-h3 {
-	font-size: 15px;
-}
-
-/* Estilos do aside#intro */
-aside#intro {
-	width: 300px;
-	margin-left: 100px;
-	background: #051c3f;
-	position: fixed;
-	height: 100vh;
-	box-shadow: inset 0px 0 30px #161616;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-/* Estilos do header */
-header {
-	background: #051c3f;
-	position: fixed;
-	width: 100px;
-	z-index: 99;
-	box-shadow: inset 0px 1px 9px #101010;
-	height: 100vh;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-/* Estilos da section */
-section {
-	background: linear-gradient(45deg, #ffffff, #ffffff);
-	right: 0;
-	position: relative;
-	margin-left: 400px;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	align-items: center;
-}
-
-.project-summary,
-.card {
-	margin: 25px 0px;
-	background: white;
-	padding: 13px 19px;
-}
-
-section p {
-	color: gray;
-	/*  color: #051c3f; */
-	margin: 3px 0px;
-	font-size: larger;
-}
-
-span.job-time {
-	color: #777777;
-}
-
-span.project-stack {
-	font-weight: 600;
-	color: gray;
-}
-
-span.project-contributors {
-	font-weight: 600;
-	color: gray;
-}
-a.more-btn {
-    text-decoration: none;
-    background-color: #FF9800;
-    font-weight: 600;
-    border-radius: 5px;
-    padding: 7px;
-    /* display: block; */
-    width: 100px;
-    box-shadow: inset 0px 0px 0px #999999;
-    border-right: 4px solid #f77e00;
-    color: white;
-    border-bottom: 4px solid #f77e00;
-    text-align: center;
-}
-
-.more-div {
-    text-align: center;
-	height: 40px;
-}
-/* Estilos do footer */
-footer {
-	background: #051c3f;
-	color: gray;
-	text-align: center;
-	position: relative;
-	display: flex;
-	margin-left: 400px;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-/* Estilos comuns para div e p dentro da section e do footer */
-section > div,
-footer p {
-	width: 80%;
-	margin: 30px 0;
-
-}
-
-
-/* Estilos adicionais */
-p {
-	text-align: justify;
-}
-
-i.fas.fa-phone {
-	font-size: 0.87em;
-}
-
-i.fa-solid {
-	font-size: 3em;
-	color: #ff9800;
-	text-shadow: none;
-	margin-bottom: 10px;
-}
-
-/* Estilos do menu de navegação */
-nav a {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-decoration: none;
-	color: gray;
-	font-weight: 200;
-	text-shadow: 6px 17px 35px #000000;
-	justify-content: space-evenly;
-}
-
-header nav {
-	height: 100%;
-	margin: 0;
-	display: flex;
-	justify-content: space-evenly;
-	flex-direction: column;
-	align-items: center;
-}
-
-/* Estilos da seção "sobre mim" */
-div#about {
-	width: 90%;
-	text-align: center;
-}
-
-#about h1 {
-	color: #ff9800;
-	font-family: system-ui, sans-serif;
-}
-
-#about h2 {
-	font-size: 2em;
-	color: #ffffff;
-	font-family: system-ui, sans-serif;
-	letter-spacing: 2;
-	font-weight: 900;
-}
-
-#about h3 span {
-	background: red;
-	padding: 4px;
-}
-
-#about div span {
-	margin: 1px;
-	background: #ff9800;
-	padding: 9px;
-	font-weight: 600;
-	box-shadow: inset 0px 0px 0px #999999;
-	border-right: 4px solid #f77e00;
-	color: white;
-	border-bottom: 4px solid #f77e00;
-	border-radius: 3px;
-}
-
-#about div {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	margin: 19px 0;
-}
-
-#about span {
-	color: gray;
-	font-weight: 200;
-}
-
-#about p {
-	color: gray;
-}
-
-div#about a {
-	margin: 17px;
-	color: #051c3f;
-	text-decoration: none;
-	border-radius: 5px;
-	padding: 10px;
-	background: #ffffff;
-	display: inline-block;
-}
-
-#about button {
-	background: white;
-	border: 0;
-	margin: 13px 1px;
-	color: #051c3f;
-	border-radius: 5px;
-	font-size: 18px;
-	font-weight: 400;
-	padding: 10px;
-}
-
-#about i {
-	font-size: 18px;
-	margin-right: 8px;
-}
-
-#about p,
-#about span {
-	display: block;
-	text-align: center;
-}
-
-.more-div {
-    text-align: center;
-}
-/* Estilos adicionais da seção */
-
-div#pitch p {
-	margin: 6px 0px;
-	background: white;
-	padding: 13px 19px;
-}
-
-
-#pitch h1 {
-	font-size: 50px;
-	text-align: center;
-	margin-top: 40px;
-}
-
-/* Estilos da seção de contato */
-.contact-icons a {
-	color: gray;
-	padding: 9px;
-	font-weight: 600;
-	box-shadow: inset 0px 0px 0px #999999;
-	border-radius: 3px;
-	text-align: center;
-	margin: 10px;
-	font-size: 50px;
-}
-
-.contact-icons {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-}
-
-.contact-icons-2 {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: flex-start;
-	margin: 25px 0px;
-	background: whitesmoke;
-	padding: 13px 19px;
-}
-
-.contact-icons-2 p {
-	margin: 10px 0;
-}
-
-#contact {
-	text-align: center;
-}
-
-#contact h1 {
-	margin-top: 30px;
-	margin-bottom: 40px;
-}
-
-.contact-tabs {
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-}
-
-.contact-tabs .tab-btn {
-	background-color: #f2f2f2;
-	border: none;
-	color: gray;
-	padding: 10px 20px;
-	cursor: pointer;
-	transition: 0.3s;
-	font-size: 16px;
-}
-
-.contact-tabs .tab-btn.active {
-	background-color: #ff9800;
-	color: white;
-	border-radius: 5px;
-}
-
-.contact-content {
-	margin-top: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.contact-content .contact-section {
-	display: none;
-}
-
-.contact-content .contact-section.show {
-	display: block;
-}
-
-.contact-content .contact-info p {
-	margin-bottom: 10px;
-}
-
-.contact-section#written-info {
-	display: none;
-}
-
-.contact-section#written-info.show {
-	display: block;
-}
-
-.contact-info {
-	text-align: left;
-	margin-top: 16px;
-
-}
-
-.contact-info p {
-	font-size: large;
-	line-height: 1.8;
-	margin-bottom: 10px;
-}
-
-.contact-info a {
-	color: #ff9800;
-	text-decoration: none;
-	transition: color 0.3s;
-}
-
-.contact-info a:hover {
-	color: #ff9800;
-}
-
-.contact-info i {
-	margin-right: 10px;
-	color: #ff9800;
-}
-
-
-/* Estilos adicionais para responsividade */
-
-@media only screen and (max-width: 768px) {
-   
-    body {
-        font-size: 16px;
-    }
-
-    /* Estilos para o aside#intro */
-    aside#intro {
-        width: 100%;
-        margin: 0;
-        position: static;
-        height: auto;
-        box-shadow: none;
-    }
-
-    /* Estilos para o header */
-    header {
-        width: 100%;
-		height: 146px;
-        position: static;
-        text-align: left;
-        box-shadow: none;
-        display: block;
-    }
-
-    header nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    /* Estilos para a section */
-    section {
-        width: 100%;
-        margin: 0;
-        margin-top: 100px;
-        display: block;
-    }
-
-    .project-summary,
-    .card {
-        width: 90%;
-        margin: 25px auto;
-    }
-
-    /* Estilos para o footer */
-    footer {
-        width: 100%;
-        margin-left: 0;
-        position: static;
-        text-align: center;
-        display: block;
-    }
-
-    /* Estilos adicionais para div e p dentro da section e do footer */
-    section>div,
-    footer p {
-        width: 90%;
-        margin: 15px auto;
-    }
-
-	footer {
-		padding: 1px 0;
+	/* Reset geral */
+	* {
+		margin: 0;
+		transition: 0.3s ease-in-out;
 	}
-}
 
-@media only screen and (max-width: 401px) {
-	
-i.fa-solid {
-    font-size: 2em;
-}
-nav a {
-	color:transparent;
-}
-h1, h2 { text-align: center;}
-.contact-content .contact-info p {
+	body {
+		font-family: system-ui, sans-serif;
+	}
 
-    text-align: center;
-}
+	h2 {
+		font-size: 20px;
+		color: gray;
+		font-weight: 700;
+	}
 
-}
+	h1 {
+		text-align: center;
+		font-size: 40px;
+		/* color: gray; */
+		color: #051c3f;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
+
+	h1:hover,
+	h1:focus,
+	i:hover,
+	i:focus,
+	button:hover,
+	button:focus {
+		color: #ff9800;
+	}
+
+	a.more-btn:hover,
+	a.more-btn:focus {
+		background: #051c3f;
+		color: white;
+	}
+
+	nav a i:hover,
+	nav a i:focus {
+		color: white;
+	}
+
+	.project-summary:hover,
+	.project-summary:focus,
+	.card:hover,
+	.card:focus {
+		background: #f3f3f3;
+	}
+
+	/* Estilos do aside#intro */
+	aside#intro {
+		width: 300px;
+		margin-left: 100px;
+		background: #051c3f;
+		position: fixed;
+		height: 100vh;
+		box-shadow: inset 0px 0 30px #161616;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Estilos do header */
+	header {
+		background: #051c3f;
+		position: fixed;
+		width: 100px;
+		z-index: 99;
+		box-shadow: inset 0px 1px 9px #101010;
+		height: 100vh;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* Estilos da section */
+	section {
+		background: linear-gradient(45deg, #ffffff, #ffffff);
+		right: 0;
+		position: relative;
+		margin-left: 400px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.project-summary,
+	.card {
+		margin: 25px 0px;
+		background: white;
+		padding: 13px 19px;
+	}
+
+	section p {
+		color: gray;
+		/*  color: #051c3f; */
+		margin: 3px 0px;
+		font-size: larger;
+	}
+
+	span.job-time {
+		color: #777777;
+	}
+
+	span.project-stack,
+	span.project-contributors {
+		font-weight: 600;
+		color: gray;
+	}
+
+	a.more-btn {
+		text-decoration: none;
+		background-color: #FF9800;
+		font-weight: 600;
+		border-radius: 5px;
+		padding: 7px;
+		width: 100px;
+		box-shadow: inset 0px 0px 0px #999999;
+		color: white;
+		text-align: center;
+	}
+
+	.more-div {
+		text-align: center;
+		height: 40px;
+	}
+
+	/* Estilos do footer */
+	footer {
+		background: #051c3f;
+		color: gray;
+		text-align: center;
+		position: relative;
+		display: flex;
+		margin-left: 400px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	/* Estilos comuns para div e p dentro da section e do footer */
+	section>div,
+	footer p {
+		width: 80%;
+		margin: 30px 0;
+
+	}
+
+
+	/* Estilos adicionais */
+	p {
+		text-align: justify;
+	}
+
+	i.fas.fa-phone {
+		font-size: 0.87em;
+	}
+
+	i.fa-solid {
+		font-size: 3em;
+		color: #ff9800;
+		text-shadow: none;
+		margin-bottom: 10px;
+	}
+
+	/* Estilos do menu de navegação */
+	nav a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-decoration: none;
+		color: #a7a7a7;
+		font-weight: 200;
+		text-shadow: 6px 17px 35px #000000;
+		justify-content: space-evenly;
+	}
+
+	header nav {
+		height: 100%;
+		margin: 0;
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* Estilos da seção "sobre mim" */
+	div#about {
+		width: 90%;
+		text-align: center;
+	}
+
+	#about h1 {
+		color: #ff9800;
+		font-family: system-ui, sans-serif;
+	}
+
+	#about h2 {
+		font-size: 2em;
+		color: #ffffff;
+		font-family: system-ui, sans-serif;
+		letter-spacing: 2;
+		font-weight: 900;
+	}
+
+	#about h3 span {
+		background: red;
+		padding: 4px;
+	}
+
+	#about div span {
+		margin: 1px;
+		background: #ff9800;
+		padding: 9px;
+		font-weight: 600;
+		box-shadow: inset 0px 0px 0px #999999;
+		border-right: 4px solid #f77e00;
+		color: white;
+		border-bottom: 4px solid #f77e00;
+		border-radius: 3px;
+	}
+
+	#about div {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		margin: 19px 0;
+	}
+
+	#about span {
+		color: #a7a7a7;
+		font-weight: 200;
+	}
+
+	#about p {
+		color: #a7a7a7;
+	}
+
+	div#about a {
+		margin: 17px;
+		color: #051c3f;
+		text-decoration: none;
+		border-radius: 5px;
+		padding: 10px;
+		background: #ffffff;
+		display: inline-block;
+	}
+
+	#about button {
+		background: white;
+		border: 0;
+		margin: 13px 1px;
+		color: #051c3f;
+		border-radius: 5px;
+		font-size: 18px;
+		font-weight: 400;
+		padding: 10px;
+	}
+
+	#about i {
+		font-size: 18px;
+		margin-right: 8px;
+	}
+
+	#about p,
+	#about span {
+		display: block;
+		text-align: center;
+	}
+
+	.more-div {
+		text-align: center;
+	}
+
+	/* Estilos adicionais da seção */
+
+	div#pitch p {
+		margin: 6px 0px;
+		background: white;
+		padding: 13px 19px;
+	}
+
+
+	#pitch h1 {
+		font-size: 50px;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	/* Estilos da seção de contato */
+	.contact-icons a {
+		color: gray;
+		padding: 9px;
+		font-weight: 600;
+		box-shadow: inset 0px 0px 0px #999999;
+		border-radius: 3px;
+		text-align: center;
+		margin: 10px;
+		font-size: 50px;
+	}
+
+	.contact-icons {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+
+	.contact-icons-2 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: flex-start;
+		margin: 25px 0px;
+		background: whitesmoke;
+		padding: 13px 19px;
+	}
+
+	.contact-icons-2 p {
+		margin: 10px 0;
+	}
+
+	#contact {
+		text-align: center;
+	}
+
+	#contact h1 {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.contact-tabs {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	.contact-tabs .tab-btn {
+		background-color: #f2f2f2;
+		border: none;
+		color: gray;
+		padding: 10px 20px;
+		cursor: pointer;
+		transition: 0.3s;
+		font-size: 16px;
+	}
+
+	.contact-tabs .tab-btn.active {
+		background-color: #ff9800;
+		color: white;
+		border-radius: 5px;
+	}
+
+	.contact-content {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact-content .contact-section {
+		display: none;
+	}
+
+	.contact-content .contact-section.show {
+		display: block;
+	}
+
+	.contact-content .contact-info p {
+		margin-bottom: 10px;
+	}
+
+	.contact-section#written-info {
+		display: none;
+	}
+
+	.contact-section#written-info.show {
+		display: block;
+	}
+
+	.contact-info {
+		text-align: left;
+		margin-top: 16px;
+
+	}
+
+	.contact-info p {
+		font-size: large;
+		line-height: 1.8;
+		margin-bottom: 10px;
+	}
+
+	.contact-info a {
+		color: #ff9800;
+		text-decoration: none;
+		transition: color 0.3s;
+	}
+
+	.contact-info a:hover {
+		color: #ff9800;
+	}
+
+	.contact-info i {
+		margin-right: 10px;
+		color: #ff9800;
+	}
+
+
+	/* Estilos adicionais para responsividade */
+
+	@media only screen and (max-width: 768px) {
+
+		body {
+			font-size: 16px;
+		}
+
+		/* Estilos para o aside#intro */
+		aside#intro {
+			width: 100%;
+			margin: 0;
+			position: static;
+			height: auto;
+			box-shadow: none;
+		}
+
+		/* Estilos para o header */
+		header {
+			width: 100%;
+			height: 146px;
+			position: static;
+			text-align: left;
+			box-shadow: none;
+			display: block;
+		}
+
+		header nav {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-evenly;
+		}
+
+		/* Estilos para a section */
+		section {
+			width: 100%;
+			margin: 0;
+			margin-top: 100px;
+			display: block;
+		}
+
+		.project-summary,
+		.card {
+			width: 90%;
+			margin: 25px auto;
+		}
+
+		/* Estilos para o footer */
+		footer {
+			width: 100%;
+			margin-left: 0;
+			position: static;
+			text-align: center;
+			display: block;
+		}
+
+		/* Estilos adicionais para div e p dentro da section e do footer */
+		section>div,
+		footer p {
+			width: 90%;
+			margin: 15px auto;
+		}
+
+		footer {
+			padding: 1px 0;
+		}
+
+		button.top-button.down {
+			bottom: 28%;
+		}
+	}
+
+	@media only screen and (max-width: 401px) {
+
+		i.fa-solid {
+			font-size: 2em;
+		}
+
+		nav a {
+			color: transparent;
+		}
+
+		h1,
+		h2 {
+			text-align: center;
+		}
+
+		.contact-content .contact-info p {
+
+			text-align: center;
+		}
+
+
+	}
+
+	/* top button e dark button */
+	button.top-button,
+	button.dark-mode-button {
+		border-radius: 5px;
+		background: #FF9800;
+		position: fixed;
+		border: 1px solid #FF9800;
+		width: 58px;
+		border-right: 4px solid #f77e00;
+		border-bottom: 4px solid #f77e00;
+		position: fixed;
+		z-index: 99999;
+		margin: 0;
+		/* 	display: none; */
+	}
+
+	button.top-button {
+		bottom: 46%;
+		right: 6px;
+	}
+
+	button.top-button.down {
+		bottom: 37%;
+		right: 6px;
+	}
+
+	button.dark-mode-button {
+		top: 18px;
+		right: 6px;
+	}
+
+	button.top-button i,
+	button.dark-mode-button i {
+		margin: 0;
+		font-size: 21px;
+		padding: 11px 0px;
+		color: white;
+	}
+
+	/* dark theme */
+
+
+	body.dark,
+	body.dark section {
+		background: #051c3f;
+		color: #ccc;
+	}
+
+	body.dark div#pitch h1 {
+		color: white;
+	}
+
+	body.dark div#pitch p {
+		background: transparent;
+	}
+
+	body.dark .project-summary {
+		background: transparent;
+	}
+
+	.dark .card {
+		background: transparent;
+	}
+
+	.dark button.tab-btn-written-info {
+		background: transparent;
+	}
+
+	.dark button.tab-btn-direct-links {
+		background: transparent;
+	}
+
+	.dark button.top-button i,
+	.dark button.dark-mode-button i {
+		color: #051c3f;
+	}
+
+	.dark .tab-btn.active {
+		background-color: #ff9800;
+		color: white;
+		border-radius: 5px;
+	}
+
+	.dark h1 {
+		color: white;
+	}
+
+	.dark h1:hover,
+	.dark h1:focus {
+		color: #ff9800;
+	}
+
+	.dark a.more-btn:hover,
+	.dark a.more-btn:focus {
+		background-color: white;
+		color: #051c3f;
+	}
+
+	.dark .project-summary:hover,
+	.dark .project-summary:focus,
+	.dark .card:hover,
+	.dark .card:focus {
+		background: #00112b;
+	}
