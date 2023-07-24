@@ -18,7 +18,7 @@
 		text-align: center;
 		font-size: 40px;
 		/* color: gray; */
-		color: #051c3f;
+		color: #0f172a;
 	}
 
 	h3 {
@@ -31,18 +31,18 @@
 	i:focus,
 	button:hover,
 	button:focus {
-		color: #ff9800;
+		color: #c478d3;
 	}
 
 	a.more-btn:hover,
 	a.more-btn:focus {
-		background: #051c3f;
-		color: white;
+		background: #0f172a;
+		color: #f9f9f9;
 	}
 
 	nav a i:hover,
 	nav a i:focus {
-		color: white;
+		color: #f9f9f9;
 	}
 
 	.project-summary:hover,
@@ -56,7 +56,7 @@
 	aside#intro {
 		width: 300px;
 		margin-left: 100px;
-		background: #051c3f;
+		background: #0f172a;
 		position: fixed;
 		height: 100vh;
 		box-shadow: inset 0px 0 30px #161616;
@@ -68,7 +68,7 @@
 
 	/* Estilos do header */
 	header {
-		background: #051c3f;
+		background: #0f172a;
 		position: fixed;
 		width: 100px;
 		z-index: 99;
@@ -82,7 +82,7 @@
 
 	/* Estilos da section */
 	section {
-		background: linear-gradient(45deg, #ffffff, #ffffff);
+		background: #f9f9f9;
 		right: 0;
 		position: relative;
 		margin-left: 400px;
@@ -95,13 +95,13 @@
 	.project-summary,
 	.card {
 		margin: 25px 0px;
-		background: white;
+		background: transparent;
 		padding: 13px 19px;
 	}
 
 	section p {
 		color: gray;
-		/*  color: #051c3f; */
+		/*  color: #0f172a; */
 		margin: 3px 0px;
 		font-size: larger;
 	}
@@ -122,13 +122,13 @@
 
 	a.more-btn {
 		text-decoration: none;
-		background-color: #FF9800;
+		background-color: #c478d3;
 		font-weight: 600;
 		border-radius: 5px;
 		padding: 7px;
 		width: 100px;
 		box-shadow: inset 0px 0px 0px #999999;
-		color: white;
+		color: #f9f9f9;
 		text-align: center;
 	}
 
@@ -139,7 +139,7 @@
 
 	/* Estilos do footer */
 	footer {
-		background: #051c3f;
+		background: #0f172a;
 		color: gray;
 		text-align: center;
 		position: relative;
@@ -174,7 +174,7 @@
 
 	i.fa-solid {
 		font-size: 3em;
-		color: #ff9800;
+		color: #c478d3;
 		text-shadow: none;
 		margin-bottom: 10px;
 	}
@@ -207,32 +207,31 @@
 	}
 
 	#about h1 {
-		color: #ff9800;
+		color: #c478d3;
 		font-family: system-ui, sans-serif;
 	}
 
 	#about h2 {
 		font-size: 2em;
-		color: #ffffff;
+		color: #f9f9f9 ;
 		font-family: system-ui, sans-serif;
 		letter-spacing: 2;
 		font-weight: 900;
 	}
 
 	#about h3 span {
-		background: red;
 		padding: 4px;
 	}
 
 	#about div span {
 		margin: 1px;
-		background: #ff9800;
+		background: #c478d3;
 		padding: 9px;
 		font-weight: 600;
 		box-shadow: inset 0px 0px 0px #999999;
-		border-right: 4px solid #f77e00;
-		color: white;
-		border-bottom: 4px solid #f77e00;
+		border-right: 4px solid #8c3d8f;
+		color: #f9f9f9;
+		border-bottom: 4px solid #8c3d8f;
 		border-radius: 3px;
 	}
 
@@ -255,7 +254,7 @@
 
 	div#about a {
 		margin: 17px;
-		color: #051c3f;
+		color: #0f172a;
 		text-decoration: none;
 		border-radius: 5px;
 		padding: 10px;
@@ -264,10 +263,10 @@
 	}
 
 	#about button {
-		background: white;
+		background: #f9f9f9;
 		border: 0;
 		margin: 13px 1px;
-		color: #051c3f;
+		color: #0f172a;
 		border-radius: 5px;
 		font-size: 18px;
 		font-weight: 400;
@@ -293,7 +292,7 @@
 
 	div#pitch p {
 		margin: 6px 0px;
-		background: white;
+		background: transparent;
 		padding: 13px 19px;
 	}
 
@@ -332,7 +331,7 @@
 		justify-content: center;
 		align-items: flex-start;
 		margin: 25px 0px;
-		background: whitesmoke;
+		background: #f9f9f9smoke;
 		padding: 13px 19px;
 	}
 
@@ -366,8 +365,8 @@
 	}
 
 	.contact-tabs .tab-btn.active {
-		background-color: #ff9800;
-		color: white;
+		background-color: #c478d3;
+		color: #f9f9f9;
 		border-radius: 5px;
 	}
 
@@ -411,18 +410,18 @@
 	}
 
 	.contact-info a {
-		color: #ff9800;
+		color: #c478d3;
 		text-decoration: none;
 		transition: color 0.3s;
 	}
 
 	.contact-info a:hover {
-		color: #ff9800;
+		color: #c478d3;
 	}
 
 	.contact-info i {
 		margin-right: 10px;
-		color: #ff9800;
+		color: #c478d3;
 	}
 
 
@@ -526,12 +525,12 @@
 	button.top-button,
 	button.dark-mode-button {
 		border-radius: 5px;
-		background: #FF9800;
+		background: #c478d3;
 		position: fixed;
-		border: 1px solid #FF9800;
+		border: 1px solid #c478d3;
 		width: 58px;
-		border-right: 4px solid #f77e00;
-		border-bottom: 4px solid #f77e00;
+		border-right: 4px solid #8c3d8f;
+		border-bottom: 4px solid #8c3d8f;
 		position: fixed;
 		z-index: 99999;
 		margin: 0;
@@ -558,7 +557,7 @@
 		margin: 0;
 		font-size: 21px;
 		padding: 11px 0px;
-		color: white;
+		color: #f9f9f9;
 	}
 
 	/* dark theme */
@@ -566,12 +565,12 @@
 
 	body.dark,
 	body.dark section {
-		background: #051c3f;
+		background: linear-gradient(90deg, #0f172a, #051c3f);
 		color: #ccc;
 	}
 
 	body.dark div#pitch h1 {
-		color: white;
+		color: #f9f9f9;
 	}
 
 	body.dark div#pitch p {
@@ -596,28 +595,28 @@
 
 	.dark button.top-button i,
 	.dark button.dark-mode-button i {
-		color: #051c3f;
+		color: #0f172a;
 	}
 
 	.dark .tab-btn.active {
-		background-color: #ff9800;
-		color: white;
+		background-color: #c478d3;
+		color: #f9f9f9;
 		border-radius: 5px;
 	}
 
 	.dark h1 {
-		color: white;
+		color: #f9f9f9;
 	}
 
 	.dark h1:hover,
 	.dark h1:focus {
-		color: #ff9800;
+		color: #c478d3;
 	}
 
 	.dark a.more-btn:hover,
 	.dark a.more-btn:focus {
-		background-color: white;
-		color: #051c3f;
+		background-color: #f9f9f9;
+		color: #0f172a;
 	}
 
 	.dark .project-summary:hover,
