@@ -10,14 +10,14 @@
 
 	h2 {
 		font-size: 20px;
-		color: gray;
+		color: #5d5d5d;
 		font-weight: 700;
 	}
 
 	h1 {
 		text-align: center;
 		font-size: 40px;
-		/* color: gray; */
+		/* color: #5d5d5d; */
 		color: #0f172a;
 	}
 
@@ -100,7 +100,7 @@
 	}
 
 	section p {
-		color: gray;
+		color: #5d5d5d;
 		/*  color: #0f172a; */
 		margin: 3px 0px;
 		font-size: larger;
@@ -117,7 +117,7 @@
 	span.project-stack,
 	span.project-contributors {
 		font-weight: 600;
-		color: gray;
+		color: #5d5d5d;
 	}
 
 	a.more-btn {
@@ -140,7 +140,7 @@
 	/* Estilos do footer */
 	footer {
 		background: #0f172a;
-		color: gray;
+		color: #5d5d5d;
 		text-align: center;
 		position: relative;
 		display: flex;
@@ -151,7 +151,7 @@
 	}
 
 	footer a {
-		color: gray;
+		color: #5d5d5d;
 	}
 
 	/* Estilos comuns para div e p dentro da section e do footer */
@@ -305,7 +305,7 @@
 
 	/* Estilos da seção de contato */
 	.contact-icons a {
-		color: gray;
+		color: #5d5d5d;
 		padding: 9px;
 		font-weight: 600;
 		box-shadow: inset 0px 0px 0px #999999;
@@ -357,7 +357,7 @@
 	.contact-tabs .tab-btn {
 		background-color: #f2f2f2;
 		border: none;
-		color: gray;
+		color: #5d5d5d;
 		padding: 10px 20px;
 		cursor: pointer;
 		transition: 0.3s;
@@ -611,7 +611,7 @@
 	.dark h1:hover,
 	.dark h1:focus {
 		color: #c478d3;
-	}
+	}	
 
 	.dark a.more-btn:hover,
 	.dark a.more-btn:focus {
@@ -624,4 +624,4 @@
 	.dark .card:hover,
 	.dark .card:focus {
 		background: #00112b;
-	}
+	}	
