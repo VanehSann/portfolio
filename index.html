@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt">
 
 <head>
@@ -22,7 +23,7 @@
 
   <aside id="intro">
     <div id="about">
-      <img src="assets/images/vanehsann.png" width="300px">
+      <img src="assets/images/vanehsann.png" width="300px" height="auto" alt="vanehsann avatar">
       <h1>VanehSann'</h1>
       <span>(ela/ella/she)</span>
       <h2> Full Stack Dev Jr & Designer 🚀</h2>
@@ -36,16 +37,16 @@
       <p><i class="fa-solid fa-map-marker"></i>Recife, Pernambuco, Brasil</p>
       <span><i class="fa-solid fa-graduation-cap"></i>Trybe
       </span>
-      <a href="assets/curriculo/vanehsann_profile.pdf">
+      <a href="assets/curriculo/vanehsann_profile.pdf" aria-label="Clique aqui para baixar meu curriculo">
         Baixe meu Curriculo</a>
     </div>
   </aside>
   <header>
     <nav>
-      <a href="#pitch"><i class="fa-solid fa-house"></i>Sobre Mim</a>
-      <a href="#projects"><i class="fa-solid fa-briefcase"></i>Projetos</a>
-      <a href="#jobs"><i class="fa-solid fa-list-check"></i>Experiências</a>
-      <a href="#contact"><i class="fa-solid fa-envelope"></i>Contato</a>
+      <a href="#pitch" aria-label="Clique aqui para ir para a seção 'sobre mim'"><i class="fa-solid fa-house"></i>Sobre Mim</a>
+      <a href="#projects" aria-label="Clique aqui para ir para a seção 'projetos'"><i class="fa-solid fa-briefcase"></i>Projetos</a>
+      <a href="#jobs" aria-label="Clique aqui para ir para a seção 'experiências'"><i class="fa-solid fa-list-check"></i>Experiências</a>
+      <a href="#contact" aria-label="Clique aqui para ir para a seção 'contato'"><i class="fa-solid fa-envelope"></i>Contato</a>
     </nav>
   </header>
 
@@ -124,7 +125,7 @@
         <p><span class="project-stack">Competências:</span> JavaScript · DOM · CSS · HTML</p>
         <p><span class="project-contributors">Outros contribuidores:</span> Vanessa Santos</p>
       </div>
-      <div class="more-div"><a href="https://www.github.com/VanehSann" target="_blank" class="more-btn">
+      <div class="more-div"><a href="https://www.github.com/VanehSann" target="_blank" class="more-btn" aria-label="Clique aqui para saber mais sobre os projetos">
           Saiba Mais</a></div>
     </div>
     </div>
@@ -170,7 +171,7 @@
           empresas como @JFIphoneria (empresa de iPhoneira) e uma empresa de automobilismo, proporcionando
           uma variedade de soluções criativas.</p>
       </div>
-      <div class="more-div"><a href="https://www.linkedin.com/in/vanehsann" target="_blank" class="more-btn">
+      <div class="more-div"><a href="https://www.linkedin.com/in/vanehsann" target="_blank" class="more-btn" aria-label="Clique aqui para saber mais sobe minhas experiênias">
           Saiba Mais</a></div>
 
     </div>
@@ -178,27 +179,27 @@
     <div id="contact">
       <h1>Contato</h1>
       <div class="contact-tabs">
-        <button class="tab-btn-direct-links tab-btn active" onclick="showHide(event)">Links
+        <button class="tab-btn-direct-links tab-btn active" onclick="showHide(event)" aria-label="Clique aqui se preferir links diretos para as minhas redes sociais">Links
           Diretos</button>
-        <button class="tab-btn-written-info tab-btn" onclick="showHide(event)">Informações por
+        <button class="tab-btn-written-info tab-btn" onclick="showHide(event)" aria-label="Clique aqui se preferir ver informações das redes sociais por escrito">Informações por
           Escrito</button>
       </div>
       <div class="contact-content">
         <div class="contact-section show" id="direct-links">
           <div class="contact-icons">
-            <a href="https://www.linkedin.com/in/vanehsann" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/vanehsann" target="_blank" rel="noopener noreferrer" aria-label="Clique aqui para ir para o linkedin'">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/VanehSann" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/VanehSann" target="_blank" rel="noopener noreferrer" aria-label="Clique aqui para ir no Github">
               <i class="fab fa-github"></i>
             </a>
-            <a href="mailto:vanessacbsantos22@gmail.com">
+            <a href="mailto:vanessacbsantos22@gmail.com" aria-label="Clique aqui para ir pra me enviar um email">
               <i class="fas fa-envelope"></i>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=5581985613870&text=Olá! Vim pelo seu portfólio e gostaria de conversar sobre oportunidades na área de desenvolvimento. Podemos conversar?" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=5581985613870&text=Olá! Vim pelo seu portfólio e gostaria de conversar sobre oportunidades na área de desenvolvimento. Podemos conversar?" target="_blank" rel="noopener noreferrer" aria-label="Clique aqui para ir ao meu whatsapp">
               <i class="fab fa-whatsapp"></i>
             </a>
-            <a href="tel:+5581985613870">
+            <a href="tel:+5581985613870" aria-label="Clique aqui para ir pegar meu telefone">
               <i class="fas fa-phone"></i>
             </a>
           </div>
@@ -229,10 +230,10 @@
       &copy; Copyrights 2023. Todos os direitos reservados. Versão 1.0.</p>
   </footer>
 
-  <button class="top-button" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
-  <button class="top-button down" onclick="scrollToDown()"><i class="fa-solid fa-arrow-down"></i></button>
+  <button class="top-button" onclick="scrollToTop()" aria-label="Clique aqui para rolar pra cima"><i class="fa-solid fa-arrow-up"></i></button>
+  <button class="top-button down" onclick="scrollToDown()" aria-label="Clique aqui para rolar para baixo"><i class="fa-solid fa-arrow-down"></i></button>
 
-  <button class="dark-mode-button"><i class="fa-solid fa-moon"></i></button>
+  <button class="dark-mode-button" aria-label="Clique aqui para alternar entre modo escuro e modo claro"><i class="fa-solid fa-moon"></i></button>
 
 </body>
 <script src="scripts/script.js"></script>

@@ -10,14 +10,14 @@
 
 	h2 {
 		font-size: 20px;
-		color: #5d5d5d;
+		color: #808080;
 		font-weight: 700;
 	}
 
 	h1 {
 		text-align: center;
 		font-size: 40px;
-		/* color: #5d5d5d; */
+		/* color: #808080; */
 		color: #0f172a;
 	}
 
@@ -31,7 +31,7 @@
 	i:focus,
 	button:hover,
 	button:focus {
-		color: #c478d3;
+		color: #AE45C2;
 	}
 
 	a.more-btn:hover,
@@ -111,18 +111,18 @@
 	}
 
 	span.job-time {
-		color: #777777;
+		color: #737373;
 	}
 
 	span.project-stack,
 	span.project-contributors {
 		font-weight: 600;
-		color: #5d5d5d;
+		color: #808080;
 	}
 
 	a.more-btn {
 		text-decoration: none;
-		background-color: #c478d3;
+		background-color: #AE45C2;
 		font-weight: 600;
 		border-radius: 5px;
 		padding: 7px;
@@ -140,7 +140,7 @@
 	/* Estilos do footer */
 	footer {
 		background: #0f172a;
-		color: #5d5d5d;
+		color: #808080;
 		text-align: center;
 		position: relative;
 		display: flex;
@@ -151,7 +151,7 @@
 	}
 
 	footer a {
-		color: #5d5d5d;
+		color: #808080;
 	}
 
 	/* Estilos comuns para div e p dentro da section e do footer */
@@ -174,7 +174,7 @@
 
 	i.fa-solid {
 		font-size: 3em;
-		color: #c478d3;
+		color: #AE45C2;
 		text-shadow: none;
 		margin-bottom: 10px;
 	}
@@ -207,7 +207,7 @@
 	}
 
 	#about h1 {
-		color: #c478d3;
+		color: #AE45C2;
 		font-family: system-ui, sans-serif;
 	}
 
@@ -225,7 +225,7 @@
 
 	#about div span {
 		margin: 1px;
-		background: #c478d3;
+		background: #AE45C2;
 		padding: 9px;
 		font-weight: 600;
 		box-shadow: inset 0px 0px 0px #999999;
@@ -305,7 +305,7 @@
 
 	/* Estilos da seção de contato */
 	.contact-icons a {
-		color: #5d5d5d;
+		color: #808080;
 		padding: 9px;
 		font-weight: 600;
 		box-shadow: inset 0px 0px 0px #999999;
@@ -357,7 +357,7 @@
 	.contact-tabs .tab-btn {
 		background-color: #f2f2f2;
 		border: none;
-		color: #5d5d5d;
+		color: #808080;
 		padding: 10px 20px;
 		cursor: pointer;
 		transition: 0.3s;
@@ -365,7 +365,7 @@
 	}
 
 	.contact-tabs .tab-btn.active {
-		background-color: #c478d3;
+		background-color: #AE45C2;
 		color: #f9f9f9;
 		border-radius: 5px;
 	}
@@ -410,18 +410,18 @@
 	}
 
 	.contact-info a {
-		color: #c478d3;
+		color: #AE45C2;
 		text-decoration: none;
 		transition: color 0.3s;
 	}
 
 	.contact-info a:hover {
-		color: #c478d3;
+		color: #AE45C2;
 	}
 
 	.contact-info i {
 		margin-right: 10px;
-		color: #c478d3;
+		color: #AE45C2;
 	}
 
 
@@ -525,9 +525,9 @@
 	button.top-button,
 	button.dark-mode-button {
 		border-radius: 5px;
-		background: #c478d3;
+		background: #AE45C2;
 		position: fixed;
-		border: 1px solid #c478d3;
+		border: 1px solid #AE45C2;
 		width: 58px;
 		border-right: 4px solid #8c3d8f;
 		border-bottom: 4px solid #8c3d8f;
@@ -599,7 +599,7 @@
 	}
 
 	.dark .tab-btn.active {
-		background-color: #c478d3;
+		background-color: #AE45C2;
 		color: #f9f9f9;
 		border-radius: 5px;
 	}
@@ -610,7 +610,7 @@
 
 	.dark h1:hover,
 	.dark h1:focus {
-		color: #c478d3;
+		color: #AE45C2;
 	}	
 
 	.dark a.more-btn:hover,
