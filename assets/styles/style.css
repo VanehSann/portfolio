@@ -10,14 +10,14 @@
 
 	h2 {
 		font-size: 20px;
-		color: #808080;
+		color: #737373;
 		font-weight: 700;
 	}
 
 	h1 {
 		text-align: center;
 		font-size: 40px;
-		/* color: #808080; */
+		/* color: #737373; */
 		color: #0f172a;
 	}
 
@@ -117,7 +117,7 @@
 	span.project-stack,
 	span.project-contributors {
 		font-weight: 600;
-		color: #808080;
+		color: #737373;
 	}
 
 	a.more-btn {
@@ -140,7 +140,7 @@
 	/* Estilos do footer */
 	footer {
 		background: #0f172a;
-		color: #808080;
+		color: #737373;
 		text-align: center;
 		position: relative;
 		display: flex;
@@ -151,7 +151,7 @@
 	}
 
 	footer a {
-		color: #808080;
+		color: #737373;
 	}
 
 	/* Estilos comuns para div e p dentro da section e do footer */
@@ -305,7 +305,7 @@
 
 	/* Estilos da seção de contato */
 	.contact-icons a {
-		color: #808080;
+		color: #737373;
 		padding: 9px;
 		font-weight: 600;
 		box-shadow: inset 0px 0px 0px #999999;
@@ -357,7 +357,7 @@
 	.contact-tabs .tab-btn {
 		background-color: #f2f2f2;
 		border: none;
-		color: #808080;
+		color: #737373;
 		padding: 10px 20px;
 		cursor: pointer;
 		transition: 0.3s;
